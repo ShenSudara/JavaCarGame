@@ -50,15 +50,15 @@ public class GamePlay extends JPanel implements Runnable{
          //intializing the car images
          carimages = new ImageIcon[7];
          try{
-            carimages[0] = new ImageIcon("D:\\my project\\java\\RacingGame\\src\\main\\java\\shens\\racinggame\\Game\\Component\\images\\CarBlue.png");
-            carimages[1] = new ImageIcon("D:\\my project\\java\\RacingGame\\src\\main\\java\\shens\\racinggame\\Game\\Component\\images\\CarGreen.png");
-            carimages[2] = new ImageIcon("D:\\my project\\java\\RacingGame\\src\\main\\java\\shens\\racinggame\\Game\\Component\\images\\CarMagenta.png");
-            carimages[3] = new ImageIcon("D:\\my project\\java\\RacingGame\\src\\main\\java\\shens\\racinggame\\Game\\Component\\images\\CarOrange.png");
-            carimages[4] = new ImageIcon("D:\\my project\\java\\RacingGame\\src\\main\\java\\shens\\racinggame\\Game\\Component\\images\\CarPink.png");
-            carimages[5] = new ImageIcon("D:\\my project\\java\\RacingGame\\src\\main\\java\\shens\\racinggame\\Game\\Component\\images\\CarRed.png");
-            carimages[6] = new ImageIcon("D:\\my project\\java\\RacingGame\\src\\main\\java\\shens\\racinggame\\Game\\Component\\images\\CarYellow.png");
+            carimages[0] = new ImageIcon("src/main/java/shens/racinggame/Game/Component/images/CarBlue.png");
+            carimages[1] = new ImageIcon("src/main/java/shens/racinggame/Game/Component/images/CarGreen.png");
+            carimages[2] = new ImageIcon("src/main/java/shens/racinggame/Game/Component/images/CarMagenta.png");
+            carimages[3] = new ImageIcon("src/main/java/shens/racinggame/Game/Component/images/CarOrange.png");
+            carimages[4] = new ImageIcon("src/main/java/shens/racinggame/Game/Component/images/CarPink.png");
+            carimages[5] = new ImageIcon("src/main/java/shens/racinggame/Game/Component/images/CarRed.png");
+            carimages[6] = new ImageIcon("src/main/java/shens/racinggame/Game/Component/images/CarYellow.png");
          
-            blast = new ImageIcon("D:\\my project\\java\\RacingGame\\src\\main\\java\\shens\\racinggame\\Game\\Component\\images\\blast.png");
+            blast = new ImageIcon("src/main/java/shens/racinggame/Game/Component/images/blast.png");
          }catch(Exception ex){
              
          }
@@ -182,7 +182,7 @@ public class GamePlay extends JPanel implements Runnable{
                     GameMap.pausegame = true;
                     
                     //play a sound after blasting
-                    File f = new File("D:\\my project\\java\\RacingGame\\src\\main\\java\\shens\\racinggame\\Game\\Component\\sounds\\blast.wav");
+                    File f = new File("src/main/java/shens/racinggame/Game/Component/sounds/blast.wav");
                     AudioInputStream audioIn;  
                     try {
                         audioIn = AudioSystem.getAudioInputStream(f.toURI().toURL());

@@ -9,7 +9,7 @@ import javax.swing.JPanel;
 
 public class GameMap  extends  JPanel implements Runnable{
        
-    //Constants and variabele for the actions
+    //Constants and variable for the actions
     private static final float scalefacttor = 1.7f;
     private static final int gamespeed = 10;
     public static boolean pausegame = false;

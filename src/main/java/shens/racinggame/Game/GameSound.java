@@ -15,7 +15,7 @@ public class GameSound extends Thread{
 
     @Override
     public void run() {
-        File f = new File("D:\\my project\\java\\RacingGame\\src\\main\\java\\shens\\racinggame\\Game\\Component\\sounds\\background.wav");
+        File f = new File("src/main/java/shens/racinggame/Game/Component/sounds/background.wav");
         AudioInputStream audioIn;  
         try {
             //for audio

@@ -60,8 +60,8 @@ public class GameWindow extends JFrame implements KeyListener,ActionListener{
                 
         //sound button
         try{
-            soundon = new ImageIcon("D:\\my project\\java\\CarGame\\src\\main\\java\\shens\\cargame\\Game\\Component\\images\\SoundOn.png");
-            soundoff = new ImageIcon("D:\\my project\\java\\CarGame\\src\\main\\java\\shens\\cargame\\Game\\Component\\images\\SoundOff.png");
+            soundon = new ImageIcon("src/main/java/shens/racinggame/Game/Component/images/SoundOff.png");
+            soundoff = new ImageIcon("src/main/java/shens/racinggame/Game/Component/images/SoundOn.png");
         }catch(Exception ex){
             
         }
